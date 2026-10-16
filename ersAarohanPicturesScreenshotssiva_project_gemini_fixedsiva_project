@@ -1,0 +1,106 @@
+ .gitignore                                         |  39 [32m+[m[31m-[m
+ {siva_project/.lovable => .lovable}/project.json   |   0
+ siva_project/.prettierignore => .prettierignore    |   0
+ siva_project/.prettierrc => .prettierrc            |   0
+ siva_project/AGENTS.md => AGENTS.md                |   0
+ README.md                                          | 204 [32m+++++[m
+ siva_project/bun.lock => bun.lock                  |   0
+ siva_project/bunfig.toml => bunfig.toml            |   0
+ siva_project/components.json => components.json    |   0
+ .../drizzle.config.ts => drizzle.config.ts         |   0
+ .../migrations/0000_campus_schema.sql              |   0
+ .../migrations/meta/0000_snapshot.json             |   0
+ .../migrations/meta/_journal.json                  |   0
+ {siva_project/drizzle => drizzle}/schema.ts        |   0
+ siva_project/eslint.config.js => eslint.config.js  |   0
+ .../package-lock.json => package-lock.json         | 403 [32m++++++++[m[31m-[m
+ siva_project/package.json => package.json          |   1 [32m+[m
+ {siva_project/public => public}/favicon.ico        | Bin
+ {siva_project/public => public}/robots.txt         |   0
+ siva_project/.gitignore                            |  32 [31m-[m
+ siva_project/README.md                             | 204 [31m-----[m
+ siva_project_source.zip                            | Bin [31m254277[m -> [32m0[m bytes
+ .../components/campus/AssistantChat.tsx            |   0
+ .../src => src}/components/campus/use-voice.ts     |   0
+ .../src => src}/components/ui/accordion.tsx        |   0
+ .../src => src}/components/ui/alert-dialog.tsx     |   0
+ {siva_project/src => src}/components/ui/alert.tsx  |   0
+ .../src => src}/components/ui/aspect-ratio.tsx     |   0
+ {siva_project/src => src}/components/ui/avatar.tsx |   0
+ {siva_project/src => src}/components/ui/badge.tsx  |   0
+ .../src => src}/components/ui/breadcrumb.tsx       |   0
+ {siva_project/src => src}/components/ui/button.tsx |   0
+ .../src => src}/components/ui/calendar.tsx         |   0
+ {siva_project/src => src}/components/ui/card.tsx   |   0
+ .../src => src}/components/ui/carousel.tsx         |   0
+ {siva_project/src => src}/components/ui/chart.tsx  |   0
+ .../src => src}/components/ui/checkbox.tsx         |   0
+ .../src => src}/components/ui/collapsible.tsx      |   0
+ .../src => src}/components/ui/command.tsx          |   0
+ .../src => src}/components/ui/context-menu.tsx     |   0
+ {siva_project/src => src}/components/ui/dialog.tsx |   0
+ {siva_project/src => src}/components/ui/drawer.tsx |   0
+ .../src => src}/components/ui/dropdown-menu.tsx    |   0
+ {siva_project/src => src}/components/ui/form.tsx   |   0
+ .../src => src}/components/ui/hover-card.tsx       |   0
+ .../src => src}/components/ui/input-otp.tsx        |   0
+ {siva_project/src => src}/components/ui/input.tsx  |   0
+ {siva_project/src => src}/components/ui/label.tsx  |   0
+ .../src => src}/components/ui/menubar.tsx          |   0
+ .../src => src}/components/ui/navigation-menu.tsx  |   0
+ .../src => src}/components/ui/pagination.tsx       |   0
+ .../src => src}/components/ui/popover.tsx          |   0
+ .../src => src}/components/ui/progress.tsx         |   0
+ .../src => src}/components/ui/radio-group.tsx      |   0
+ .../src => src}/components/ui/resizable.tsx        |   0
+ .../src => src}/components/ui/scroll-area.tsx      |   0
+ {siva_project/src => src}/components/ui/select.tsx |   0
+ .../src => src}/components/ui/separator.tsx        |   0
+ {siva_project/src => src}/components/ui/sheet.tsx  |   0
+ .../src => src}/components/ui/sidebar.tsx          |   0
+ .../src => src}/components/ui/skeleton.tsx         |   0
+ {siva_project/src => src}/components/ui/slider.tsx |   0
+ {siva_project/src => src}/components/ui/sonner.tsx |   0
+ {siva_project/src => src}/components/ui/switch.tsx |   0
+ {siva_project/src => src}/components/ui/table.tsx  |   0
+ {siva_project/src => src}/components/ui/tabs.tsx   |   0
+ .../src => src}/components/ui/textarea.tsx         |   0
+ .../src => src}/components/ui/toggle-group.tsx     |   0
+ {siva_project/src => src}/components/ui/toggle.tsx |   0
+ .../src => src}/components/ui/tooltip.tsx          |   0
+ {siva_project/src => src}/hooks/use-mobile.tsx     |   0
+ .../src => src}/integrations/lovable/index.ts      |   0
+ .../integrations/supabase/auth-attacher.ts         |   0
+ .../integrations/supabase/auth-middleware.ts       |   0
+ .../integrations/supabase/client.server.ts         |   0
+ .../src => src}/integrations/supabase/client.ts    |   0
+ .../src => src}/integrations/supabase/cron-auth.ts |   0
+ .../integrations/supabase/previewAuthStorage.ts    |   0
+ .../src => src}/integrations/supabase/types.ts     |   0
+ .../src => src}/lib/ai/campus-chat.server.ts       | 975 [32m++++++++++++++++[m[31m-----[m
+ {siva_project/src => src}/lib/ai/run-id.server.ts  |   0
+ {siva_project/src => src}/lib/campus-data.ts       |   0
+ {siva_project/src => src}/lib/error-capture.ts     |   0
+ {siva_project/src => src}/lib/error-page.ts        |   0
+ .../src => src}/lib/lovable-error-reporting.ts     |   0
+ {siva_project/src => src}/lib/utils.ts             |   0
+ {siva_project/src => src}/routeTree.gen.ts         |   0
+ {siva_project/src => src}/router.tsx               |   0
+ {siva_project/src => src}/routes/README.md         |   0
+ {siva_project/src => src}/routes/__root.tsx        |   0
+ .../routes/_authenticated/dashboard.tsx            |   0
+ .../src => src}/routes/_authenticated/route.tsx    |   0
+ {siva_project/src => src}/routes/api/chat.ts       |   0
+ {siva_project/src => src}/routes/auth.tsx          |   0
+ {siva_project/src => src}/routes/index.tsx         |   0
+ .../src => src}/routes/reset-password.tsx          |   0
+ {siva_project/src => src}/server.ts                |   0
+ {siva_project/src => src}/start.ts                 |   0
+ {siva_project/src => src}/styles.css               |   0
+ .../src => src}/test/app-routing.test.tsx          |   0
+ {siva_project/src => src}/test/setup.ts            |   0
+ {siva_project/supabase => supabase}/config.toml    |   0
+ siva_project/tsconfig.json => tsconfig.json        |   0
+ siva_project/vite.config.ts => vite.config.ts      |   0
+ siva_project/vitest.config.ts => vitest.config.ts  |   0
+ 105 files changed, 1398 insertions(+), 460 deletions(-)
